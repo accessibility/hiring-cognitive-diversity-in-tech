@@ -298,3 +298,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Emacs stuff
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
