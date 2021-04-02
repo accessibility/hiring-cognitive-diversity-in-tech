@@ -4,7 +4,10 @@
   "description": "Hiring Cognitive Diversity in Tech is an Education and Advocacy Initiative designed to assist businesses in hiring skilled technologists with Cognitive Disabilities. At Hiring Cognitive we know that minorities on the cognitive spectrum like us make amazing employees! But the interview and onboarding processes in tech aren't designed with us in mind so they aren't spaces where we can show off our unique skills.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eleventy": "npx eleventy",
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
