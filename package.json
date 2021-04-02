@@ -16,9 +16,15 @@
     "type": "git",
     "url": "git+https://github.com/accessibility/hiring-cognitive-diversity-in-tech.git"
   },
-  "keywords": [],
+  "keywords": [
+	"accessibility",
+	"11ty",
+	"cognitive disabilities",
+	"hiring",
+	"website"
+],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/accessibility/hiring-cognitive-diversity-in-tech/issues"
   },
