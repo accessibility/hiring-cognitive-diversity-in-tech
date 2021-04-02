@@ -17,3 +17,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [MIT License](LICENSE).
 
+## Steps to run this site locally
+
+1. Install the latest version of [nodeJS](https://nodejs.org/en/)
+2. run `npm i`
+3. run `npm start` to build and server a local version or `npm build` just to build the site
