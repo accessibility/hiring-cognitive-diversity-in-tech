@@ -6,23 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --style=compressed src/sass/base.scss dist/css/base.css",
-	"watch:sass": "npm run sass -- --watch",
+    "watch:sass": "npm run sass -- --watch",
     "eleventy": "npx eleventy",
-	"watch:eleventy": "eleventy --serve",
-	"start": "npm-run-all sass --parallel watch:*",
-	"build": "npm-run-all sass --parallel eleventy"
+    "watch:eleventy": "eleventy --serve",
+    "start": "npm-run-all sass --parallel watch:*",
+    "build": "npm-run-all sass --parallel eleventy"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/accessibility/hiring-cognitive-diversity-in-tech.git"
   },
   "keywords": [
-	"accessibility",
-	"11ty",
-	"cognitive disabilities",
-	"hiring",
-	"website"
-],
+    "accessibility",
+    "11ty",
+    "cognitive disabilities",
+    "hiring",
+    "website"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
