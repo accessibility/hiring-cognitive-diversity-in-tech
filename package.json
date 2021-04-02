@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --style=compressed src/sass/base.scss dist/css/base.css",
     "eleventy": "npx eleventy",
     "start": "eleventy --serve",
     "build": "eleventy"
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/accessibility/hiring-cognitive-diversity-in-tech#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "sass": "^1.32.8"
   }
 }
