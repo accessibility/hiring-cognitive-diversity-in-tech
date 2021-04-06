@@ -4,20 +4,36 @@
   "description": "Hiring Cognitive Diversity in Tech is an Education and Advocacy Initiative designed to assist businesses in hiring skilled technologists with Cognitive Disabilities. At Hiring Cognitive we know that minorities on the cognitive spectrum like us make amazing employees! But the interview and onboarding processes in tech aren't designed with us in mind so they aren't spaces where we can show off our unique skills.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --style=compressed src/sass/base.scss dist/css/base.css",
+    "watch:sass": "npm run sass -- --watch",
+    "eleventy": "npx eleventy",
+    "watch:eleventy": "eleventy --serve",
+    "start": "npm-run-all sass --parallel watch:*",
+    "build": "npm-run-all sass --parallel eleventy"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/accessibility/hiring-cognitive-diversity-in-tech.git"
   },
-  "keywords": [],
+  "keywords": [
+    "accessibility",
+    "11ty",
+    "cognitive disabilities",
+    "hiring",
+    "website"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/accessibility/hiring-cognitive-diversity-in-tech/issues"
   },
   "homepage": "https://github.com/accessibility/hiring-cognitive-diversity-in-tech#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "sass": "^1.32.8"
   }
 }
